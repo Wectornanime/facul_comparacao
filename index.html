@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wectornanime">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>Tabelinha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+
+        main {
+            min-height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 1080px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        i {
+            font-size: 1.6em;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="2" scope="col">Linguagem</th>
+                    <th rowspan="2" colspan="2" scope="colgroup">Tipagem</th>
+                    <th rowspan="2" scope="col">Paradigmas</th>
+                    <th rowspan="2" scope="col">Desenvolvedor(es)</th>
+                    <th colspan="3" scope="colgroup">Origem</th>
+                    <th rowspan="2" scope="col">Principal aplição</th>
+                    <th colspan="2" scope="colgroup">Curva de aprendizagem</th>
+                    <th rowspan="2" scope="col">Opnião</th>
+                </tr>
+                <tr>
+                    <th scope="col">Ano</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Inicial</th>
+                    <th scope="col">Crescente</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>
+                        <i class="devicon-javascript-plain"></i>
+                    </td>
+                    <td>Dinâmica</td>
+                    <td>Fraca</td>
+                    <td>Multiparadigma (procedural, orientada a objetos, funcional)</td>
+                    <td>Brendan Eich</td>
+                    <td>1995</td>
+                    <td>Netscape</td>
+                    <td>Estados Unidos</td>
+                    <td>Web (frontend/backend)</td>
+                    <td>Fácil devido à sua sintaxe simples</td>
+                    <td>Aumenta à medida que você explora conceitos avançados, como manipulação do DOM, assincronicidade, closures e programação orientada a objetos</td>
+                    <td>Uma linguagem de tipagem fraca e dinâmica de fácil aprendizagem focada em desenvolvimento web.</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>
+                        <i class="devicon-java-plain"></i>
+                    </td>
+                    <td>Estática</td>
+                    <td>Forte</td>
+                    <td>Orientada a objetos</td>
+                    <td>James Gosling, Mike Sheridan e Patrick Naughton</td>
+                    <td>1991</td>
+                    <td>Sun Microsystems</td>
+                    <td>Estados Unidos</td>
+                    <td>Web (backend), mobile, desktop, jogos</td>
+                    <td>Moderada considerando que é mais rigorosa</td>
+                    <td>Aumenta à medida que você explora conceitos como orientação a objetos, interfaces, coleções, exceções e tópicos avançados, como concorrência e manipulação de arquivos.</td>
+                    <td>Linguagem de programação de tipagem forte e estática, onde a curva de aprendizagem é maior, focada no backend</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>
+                        <i class="devicon-php-plain"></i>
+                    </td>
+                    <td>Dinâmica</td>
+                    <td>Fraca</td>
+                    <td>Multiparadigma (procedural, orientada a objetos)</td>
+                    <td>Rasmus Lerdorf</td>
+                    <td>1995</td>
+                    <td></td>
+                    <td>Canadá</td>
+                    <td>Web</td>
+                    <td>Relativamente fácil, especialmente para desenvolvimento web</td>
+                    <td>Aumenta quando você trabalha em aplicativos mais complexos</td>
+                    <td>Linguagem doida, onde muitos misturam o código com a estrutura do site.</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>
+                        <i class="devicon-python-plain"></i>
+                    </td>
+                    <td>Dinâmica</td>
+                    <td>Fraca</td>
+                    <td>Multiparadigma (orientada a objetos, funcional)</td>
+                    <td>Guido van Rossum</td>
+                    <td>1991</td>
+                    <td></td>
+                    <td>Holânda</td>
+                    <td>Web (frontend/backend), análise de dados, intelignca artificial, automação</td>
+                    <td>Suave devido à sua sintaxe legível</td>
+                    <td>Aumenta à medida que você explora conceitos avançados, como manipulação de dados, programação funcional, criação de classes e desenvolvimento web com frameworks como Django ou Flask.</td>
+                    <td>Uma linguagem de programação onde a curva de aprendizagem é baixa, sua estrutura é chata no começo, mas ensia a realizar um código organizado.</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>
+                        <i class="devicon-csharp-plain"></i>
+                    </td>
+                    <td>Estática</td>
+                    <td>Forte</td>
+                    <td>Orientada a Objetos</td>
+                    <td>Anders Hejlsberg (liderou)</td>
+                    <td>2000</td>
+                    <td>Microsoft</td>
+                    <td>Estados Unidos</td>
+                    <td>Desktop, jogos, web (backend)</td>
+                    <td>Moderada, especialmente para iniciantes com pouca experiência em programação orientada a objetos</td>
+                    <td>Aumenta à medida que você explora tópicos como programação orientada a objetos avançada, manipulação de eventos, uso de bibliotecas de terceiros e desenvolvimento de aplicativos desktop ou jogos</td>
+                    <td>Uma linguagem derivada do C muito ultilisada no desenvolvimento de jogos.</td>
+                </tr>
+                <tr>
+                    <td>Lua</td>
+                    <td>
+                        <i class="devicon-lua-plain"></i>
+                    </td>
+                    <td>Dinâmica</td>
+                    <td>Fraca</td>
+                    <td>Multiparadigma (imperativa, procedual, orientada a objetos, funcional)</td>
+                    <td>Roberto Ierusalimschy, Luiz Henrique de Figueiredo e Waldemar Celes</td>
+                    <td>1993</td>
+                    <td></td>
+                    <td>Brasil</td>
+                    <td>Script para jogos, sistemas embarcados</td>
+                    <td>Fácil de aprender, especialmente para scripting</td>
+                    <td>Cresce quando você explora recursos avançados, como manipulação de tabelas, programação orientada a objetos em Lua e incorporação de Lua em aplicativos maiores</td>
+                    <td>Linguagem de programação muito parecida coom python, que é brasileira.</td>
+                </tr>
+            </tbody>
+        </table>    
+    </main>
+
+</body>
+</html>
